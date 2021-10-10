@@ -1,10 +1,10 @@
 
 DNA Gen Detector.
 
-You can use it as a stand alone lib. No container is needed (glassfish/Tomcat).<br>
-(Should add the jar 'JettyServerLib-1.0-SNAPSHOT-jar-with-dependencies.jar' to project libraries. <br>[found under 'DNAGenDetectorServer/GenDetectorServer/lib/'])
+You can use this project's jar (found under 'dist' folder) as a library in a stand alone application. No container is needed (glassfish/Tomcat).<br>
+(Should add to your project the jar 'JettyServerLib-1.0-SNAPSHOT-jar-with-dependencies.jar'. <br>[found under 'lib' folder])
 
-Here some use case of the project.
+Here some use case of the library.
 
     GenDetector genDetector = GenDetector.getInstance();
     File file = new File("DNA_file_path");
@@ -26,6 +26,8 @@ After successfully init, we can call some http GET requests to check if a string
 The url is:<br>
 
     http://((<ip>:8084)|<domain name>)/genes/find/<GEN>
+    
+After finish with the GenDetector, you can call GenDetector.getInstance().cleanup() for stopping the server from listenning.
     
 
  
