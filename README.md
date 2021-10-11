@@ -5,7 +5,7 @@ Initiate DNA file by lexicographically sorted (up to 2000 characters) gen file o
 It gives a O(log(n)) complexity for checking existence of a gen string.
 
 You can use this project's jar (found under 'dist' folder) as a library in a stand alone application. No container is needed (glassfish/Tomcat).<br>
-(Should add to your project the jar 'JettyServerLib-1.0-SNAPSHOT-jar-with-dependencies.jar'. <br>[found under 'lib' folder])
+(Should add to your project the jar 'JettyServerLib-1.0-SNAPSHOT-jar-with-dependencies.jar'. [found under 'lib' folder])
 
 Here some use case of the library.
 
