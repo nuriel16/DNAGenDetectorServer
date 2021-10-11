@@ -2,7 +2,7 @@
 DNA Gen Detector.
 
 Initiate DNA file by lexicographically sorted (up to 2000 characters) gen file offset list. (O(nlog(n)) complexity)<br>
-It gives a O(log(n)) complexity for checking existence of a gen string.
+It gives an O(log(n)) complexity for checking existence of a gen string.
 
 You can use this project's jar (found under 'dist' folder) as a library in a stand alone application. No container is needed (glassfish/Tomcat).<br>
 (Should add to your project the jar 'JettyServerLib-1.0-SNAPSHOT-jar-with-dependencies.jar'. [found under 'lib' folder])
